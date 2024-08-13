@@ -6,6 +6,10 @@ body {
         radial-gradient(at 82% 65%, hsl(218.71, 42%, 14.000000000000002%) 0, transparent 55%);
 }
 
+.bg-dark-blue{
+    background-color: #1E2DB8;
+}
+
 /* Glassmorphism card effect */
 .calculater {
     backdrop-filter: blur(16px) saturate(175%);
