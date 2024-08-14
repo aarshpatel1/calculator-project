@@ -1,12 +1,19 @@
 /* Background styles */
-body {
+/* body {
     background-color: #101624;
     background-image:
         radial-gradient(at 47% 33%, hsl(234.08, 72%, 42%) 0, transparent 59%),
         radial-gradient(at 82% 65%, hsl(218.71, 42%, 14.000000000000002%) 0, transparent 55%);
+} */
+
+body {
+    background-image: url('https://wallpapercave.com/wp/wp9585556.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.bg-dark-blue{
+.bg-dark-blue {
     background-color: #1E2DB8;
 }
 

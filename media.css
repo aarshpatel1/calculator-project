@@ -1,0 +1,21 @@
+@media(max-width: 1400px) {}
+
+@media(max-width: 1200px) {}
+
+@media(max-width: 992px) {}
+
+@media(max-width: 768px) {}
+
+@media(max-width: 576px) {
+    #calculater{
+        /* 
+        svh = small view port height
+        lvh = large view port height
+        dvh = dynamic view port height
+        */
+        height: 100svh;
+        width: 100svw;
+        /* height: 100dvh;
+        width: 100dvh; */
+    }
+}

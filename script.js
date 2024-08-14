@@ -7,7 +7,6 @@ function appendDigit(value) {
         display.value = calculation(display.value)
     } else if (value === "C") {
         display.value = ""
-
     } else if (value === "X") {
         display.value = removeLastDigit(display.value)
     } else {
