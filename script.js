@@ -1,8 +1,9 @@
 function appendDigit(value) {
     const display = document.getElementById("display")
-    // const digits = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.']
-    // if (digits.includes(value)) {
-    if (value === "=") {
+    const digits = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '.']
+    if (display.value === "" && !(digits.includes(value))) {
+        display.value = ""
+    } else if (value === "=") {
         display.value = calculation(display.value)
     } else if (value === "C") {
         display.value = ""
@@ -12,9 +13,6 @@ function appendDigit(value) {
     } else {
         display.value += value
     }
-    // } else {
-    // display.value = removeLastDigit(display.value)
-    // }
 }
 
 function calculation(expression) {
